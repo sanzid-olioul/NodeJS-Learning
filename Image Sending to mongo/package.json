@@ -1,0 +1,25 @@
+{
+  "name": "image-send",
+  "version": "1.0.0",
+  "description": "\"Its a Testisg app\"",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "\"Sanzid Olioul\"",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.15",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
